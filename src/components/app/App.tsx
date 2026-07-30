@@ -17,7 +17,7 @@ export default function App() {
   const handleVote = (voteType: VoteType) => 
     setVotes({
     ...votes,
-    [voteType]: votes[voteType] + 1,
+    [voteType]:votes[voteType] + 1,
   });
 
  const resetVotes = () => {
